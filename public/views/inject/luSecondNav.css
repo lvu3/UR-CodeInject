@@ -1,6 +1,5 @@
 #navigation .top-bar {
     background-color: #00205B!important;
-    /* border-bottom: 0.25rem solid #FFC70A; */
     border-bottom: none!important;
 }
 
@@ -35,39 +34,27 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
     position: absolute;
     left:2%;
     top:10%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.secondNavLogo img {
-    width: 80px;
-}
 
 .secondNavLogo h3 {
-    font-family: utopia-std,Georgia,serif;
     color: #395792;
     font-weight: normal;
     font-size: 1.1em;
 }
 
 
+.upper-record-details {
+	display: table;
+}
+
+.bioghist single_note {
+	display: table-header-group;
+}
 .row.has-resizable-content, #notes_row {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-}
-
-.col-sm-9 {
-	display: table;
-}
-
-.upper-record-details {
-	display: table-footer-group;
-}
-
-.acc_holder.clear {
-	display: table-header-group;
 }
 
 
@@ -82,11 +69,6 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
         right: 0; 
         left: auto;
         background-color: #d1e1ff;
-    }
-}
-@media screen and (max-width:1122px) {
-    .secondNavLogo h3 {
-    	margin-top: 5px;
     }
 }
 
