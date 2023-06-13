@@ -43,12 +43,14 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
     font-size: 1.1em;
 }
 
-
+.infinite-record-scrollbar {
+	display: none;
+}
 .upper-record-details {
 	display: table;
 }
 
-.bioghist single_note {
+.bioghist.single_note {
 	display: table-header-group;
 }
 .row.has-resizable-content, #notes_row {
@@ -154,7 +156,7 @@ font-size: 1.5rem;
 #secondNavLu {
     position: relative;	
     background-color: #FFC70A;
-    padding: 3.5em 0; 
+    padding: 3em 0; 
     margin-bottom: 0;
   }
   
