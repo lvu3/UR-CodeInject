@@ -53,6 +53,18 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
 .bioghist.single_note {
 	display: table-header-group;
 }
+
+.col-sm-9 {
+	display: table;
+}
+
+.upper-record-details {
+	display: table-footer-group;
+}
+
+.acc_holder.clear {
+	display: table-header-group;
+}
 .row.has-resizable-content, #notes_row {
     display: flex;
     flex-direction: row-reverse;
