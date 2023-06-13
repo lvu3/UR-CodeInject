@@ -6,8 +6,7 @@ document.addEventListener("DOMContentLoaded", function(e){
       <div class="col-sm-12">
         <div id="secondNavLu">
         <div class="secondNavLogo">
-        <img src="https://www.library.rochester.edu/themes/custom/rcl_foundation/images/uofr-logo-shield.png"/>
-        <h3>Libraries</h3>
+        <h3>Library Homepage</h3>
         </div>
         <div class="container">
             <a href="https://www.library.rochester.edu/rbscp/collections">Rare Books and Special Collections</a>
